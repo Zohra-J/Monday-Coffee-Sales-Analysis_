@@ -17,6 +17,7 @@ This project probes sales, customer, and product data for “Monday Coffee”, a
 - Jupyter Notebook / Google Colab → Data analysis
 - Excel/CSV → Raw data storage
 - GitHub → Project versioning & documentation
+- Tableau → Visualization of insights 
 
 Project Structure
 
@@ -86,17 +87,18 @@ Final Recommendations
 
 If a `cities` table is added, City_IDs can be mapped to actual city names. But in this dataset city_name is not included. 
 
-How to Use This Project
-You can:
-- Run the SQL queries in `sql/analysis_queries.sql` to reproduce the insights
-- Explore the analysis step-by-step in the Jupyter notebook (`notebooks/coffee-analysis.ipynb`)
-- View reports and charts in the `outputs/` folder
+Dashboard Overview
 
-Future Improvements
+The interactive Tableau dashboard presents:
 
-- Add city name mapping via a `cities.csv` file
-- Automate data pipeline with Python scripts
-- Build an interactive dashboard (e.g., Power BI or Tableau)
+• Total Sales by City – Identifies regional revenue performance  
+• Top 3 Cities – Highlights expansion-ready markets  
+• Monthly Sales Trend – Evaluates time-based demand patterns  
+
+This dashboard supports data-driven decision-making for physical store expansion.
+🔗 Tableau Dashboard:
+View Interactive Dashboard- https://public.tableau.com/authoring/Monday_CoffeeSalesProject/MondayCoffeeSalesInsightsDashboard#1 
+
 
  Acknowledgements
 
